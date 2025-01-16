@@ -1,0 +1,7 @@
+additionalProperties:
+  name: V2Ray
+  tags:
+    - 科学上网
+    - Website    
+  shortDescZh: 一个易用而强大的，跨平台的 V2Ray 客户端
+  website: https://v2raya.org/docs/prologue/introduction/

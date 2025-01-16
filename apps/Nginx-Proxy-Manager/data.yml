@@ -1,0 +1,7 @@
+additionalProperties:
+  name: Nginx Proxy Manager
+  tags:
+    - 网站代理
+    - Website    
+  shortDescZh: 在您的网络上公开 Web 服务。使用 Let's Encrypt 免费提供 SSL。设计时充分考虑了安全性。非常适合家庭网络。
+  website: https://nginxproxymanager.com/

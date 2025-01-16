@@ -1,0 +1,20 @@
+services:
+  searxng:
+    image: searxng/searxng:latest
+    container_name: searxng
+    ports:
+      - 8061:8080
+    volumes:
+      - ./data:/etc/searxng:rw
+    cap_drop:
+      - ALL
+    cap_add:
+      - CHOWN
+      - SETGID
+      - SETUID
+    logging:
+      driver: 'json-file'
+      options:
+        max-size: '1m'
+        max-file: '1'
+    restart: unless-stopped
