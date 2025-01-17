@@ -1,0 +1,7 @@
+additionalProperties:
+  name: 3x-UI
+  tags:
+    - 代理工具
+    - Website    
+  shortDescZh: 3x-UI 是一个用来管理和配置 Xray（一个网络代理工具）配置的 Web 用户界面（UI）。
+  website: https://github.com/MHSanaei/3x-ui
